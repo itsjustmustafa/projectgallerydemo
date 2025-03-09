@@ -57,5 +57,44 @@
     "liveDemoUrl": "https://ig.ft.com/generative-ai/",
     "isInteractive": true,
     "estimatedCompletionTime": "20 minutes"
+  },
+  {
+    "id": "spotting-misinformation-disinformation-2023",
+    "title": "Spotting online misinformation and disinformation",
+    "description": "Learn some handy first steps to fact check news and information online.",
+    "publisher": "ABC",
+    "imageUrl": "https://live-production.wcms.abc-cdn.net.au/1c08e1177bf75ed4c7f55c11209fffa9",
+    "tags": [
+      "fact-checking",
+      "AI",
+      "deepfakes"
+    ],
+    "dateCreated": "2019-09-24",
+    "dateUpdated": "2024-09-23",
+    "sourceUrl": "https://games.abc.net.au/education/interactive-lessons/misinformation-disinformation/",
+    "repository": null,
+    "liveDemoUrl": "https://games.abc.net.au/education/interactive-lessons/misinformation-disinformation/",
+    "isInteractive": true,
+    "estimatedCompletionTime": "3 minutes"
+  },
+  {
+    "id": "neural-netowrk-playground-2016",
+    "title": "A Neural Network Playground",
+    "description": "Tinker With a Neural Network Right Here in Your Browser. Don’t Worry, You Can’t Break It. We Promise.",
+    "publisher": "TensorFlow",
+    "imageUrl": "https://playground.tensorflow.org/preview.png",
+    "tags": [
+      "simulation",
+      "AI",
+      "image analysis",
+      "neural networks"
+    ],
+    "dateCreated": "2016-01-01",
+    "dateUpdated": "2016-01-01",
+    "sourceUrl": "https://playground.tensorflow.org/",
+    "repository": null,
+    "liveDemoUrl": "https://playground.tensorflow.org/",
+    "isInteractive": true,
+    "estimatedCompletionTime": "10 minutes"
   }
 ]
