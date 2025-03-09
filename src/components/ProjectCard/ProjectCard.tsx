@@ -20,7 +20,10 @@ function ProjectCard({ project }: Props) {
         navigate("/tagged/" + tag);
     }
     return (
-        <div className={styles.card}>
+        <div
+            className={styles.card}
+            onClick={() => openInView(project.id as string)}
+        >
             <img
                 src={project.imageUrl}
                 alt={project.title}
@@ -34,21 +37,7 @@ function ProjectCard({ project }: Props) {
                     prefix="#"
                     onClick={addTagToPage}
                 />
-                {/* <div className={styles.tags}>
-                    {project.tags.map((tag, index) => (
-                        // <span key={tag} className={styles.tag}>
-                        //     {tag}
-                        // </span>
-                        <Tag text={tag} key={index} />
-                    ))}
-                </div> */}
                 <div className={styles.footer}>
-                    <button
-                        onClick={() => openInView(project.id as string)}
-                        className={styles.button}
-                    >
-                        View Project
-                    </button>
                     {project.repository && (
                         <a
                             onClick={() =>

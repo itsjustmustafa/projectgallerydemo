@@ -1,0 +1,100 @@
+[
+  {
+    "id": "neural-network-playground-2016",
+    "title": "A Neural Network Playground",
+    "description": "Tinker With a Neural Network Right Here in Your Browser. Don’t Worry, You Can’t Break It. We Promise.",
+    "publisher": "TensorFlow",
+    "imageUrl": "https://playground.tensorflow.org/preview.png",
+    "tags": [
+      "simulation",
+      "AI",
+      "image-analysis",
+      "neural-networks"
+    ],
+    "dateCreated": "2016-01-01",
+    "dateUpdated": "2016-01-01",
+    "sourceUrl": "https://playground.tensorflow.org/",
+    "repository": null,
+    "liveDemoUrl": "https://playground.tensorflow.org/",
+    "isInteractive": true,
+    "estimatedCompletionTime": "10 minutes"
+  },
+  {
+    "id": "gen-ai-exists-because-transformer-2023",
+    "title": "Generative AI exists because of the transformer",
+    "description": "An interactive guide to how the transformer model works that powers Large Language Models like ChatGPT.",
+    "publisher": "Financial Times",
+    "imageUrl": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fft-ig-images-prod.s3-website-eu-west-1.amazonaws.com%2Fv1%2F8306005515-kvnos.jpg?source=ig",
+    "tags": [
+      "AI",
+      "simulation",
+      "LLM"
+    ],
+    "dateCreated": "2023-09-12",
+    "dateUpdated": "2023-09-12",
+    "sourceUrl": "https://ig.ft.com/generative-ai/",
+    "repository": null,
+    "liveDemoUrl": "https://ig.ft.com/generative-ai/",
+    "isInteractive": true,
+    "estimatedCompletionTime": "20 minutes"
+  },
+  {
+    "id": "spotting-misinformation-disinformation-2023",
+    "title": "Spotting online misinformation and disinformation",
+    "description": "Learn some handy first steps to fact check news and information online.",
+    "publisher": "ABC",
+    "imageUrl": "https://live-production.wcms.abc-cdn.net.au/1c08e1177bf75ed4c7f55c11209fffa9",
+    "tags": [
+      "fact-checking",
+      "AI",
+      "deepfakes"
+    ],
+    "dateCreated": "2019-09-24",
+    "dateUpdated": "2024-09-23",
+    "sourceUrl": "https://games.abc.net.au/education/interactive-lessons/misinformation-disinformation/",
+    "repository": null,
+    "liveDemoUrl": "https://games.abc.net.au/education/interactive-lessons/misinformation-disinformation/",
+    "isInteractive": true,
+    "estimatedCompletionTime": "3 minutes"
+  },
+  {
+    "id": "covid-simulator-2020",
+    "title": "Why outbreaks like coronavirus spread exponentially, and how to “flatten the curve”",
+    "description": "An interactive simulation showing how different levels of social distancing affect the spread of infectious diseases.",
+    "publisher": "The Washington Post",
+    "imageUrl": "https://www.washingtonpost.com/graphics/2020/world/corona-simulator/img/sig-gif.gif",
+    "tags": [
+      "COVID-19",
+      "epidemics",
+      "simulation",
+      "social-distancing"
+    ],
+    "dateCreated": "2020-03-14",
+    "dateUpdated": "2020-03-14",
+    "sourceUrl": "https://www.washingtonpost.com/graphics/2020/world/corona-simulator/",
+    "repository": null,
+    "liveDemoUrl": "https://www.washingtonpost.com/graphics/2020/world/corona-simulator/",
+    "isInteractive": true,
+    "estimatedCompletionTime": "10 minutes"
+  },
+  {
+    "id": "ai-fake-image-detector-2024",
+    "title": "How to Spot a Fake Image: AI Manipulation Detection",
+    "description": "An interactive guide to identifying AI-generated and manipulated images.",
+    "publisher": "ABC",
+    "imageUrl": "https://live-production.wcms.abc-cdn.net.au/9a7dbe3fd819d591518ed15b4c283e19",
+    "tags": [
+      "AI",
+      "deepfakes",
+      "image-analysis",
+      "fact-checking"
+    ],
+    "dateCreated": "2024-09-13",
+    "dateUpdated": "2024-09-13",
+    "sourceUrl": "https://www.abc.net.au/news/2024-09-13/how-to-spot-a-fake-image-ai-manipulation/103646188",
+    "repository": null,
+    "liveDemoUrl": "https://www.abc.net.au/news/2024-09-13/how-to-spot-a-fake-image-ai-manipulation/103646188",
+    "isInteractive": true,
+    "estimatedCompletionTime": "10 minutes"
+  }
+]
