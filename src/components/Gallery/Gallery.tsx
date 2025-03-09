@@ -53,12 +53,7 @@ function rankMetadata(
                     : 0),
         }))
         .sort((a, b) => b.score - a.score)
-        .filter((metadataAndScore) => {
-            console.log(
-                `${metadataAndScore.metadata.id} => ${metadataAndScore.score}`
-            );
-            return metadataAndScore.score > 0;
-        })
+        .filter((metadataAndScore) => metadataAndScore.score > 0)
         .map((metadataAndScore) => metadataAndScore.metadata);
 }
 
