@@ -7,7 +7,13 @@ type Props = {
 
 function Tag({ text, onClick }: Props) {
     return (
-        <span className={styles.tag} onClick={onClick}>
+        <span
+            className={styles.tag}
+            onClick={(e) => {
+                e.stopPropagation();
+                onClick();
+            }}
+        >
             {text}
         </span>
     );

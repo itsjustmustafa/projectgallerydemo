@@ -22,7 +22,9 @@ function ProjectCard({ project }: Props) {
     return (
         <div
             className={styles.card}
-            onClick={() => openInView(project.id as string)}
+            onClick={() => {
+                openInView(project.id as string);
+            }}
         >
             <img
                 src={project.imageUrl}
@@ -40,9 +42,10 @@ function ProjectCard({ project }: Props) {
                 <div className={styles.footer}>
                     {project.repository && (
                         <a
-                            onClick={() =>
-                                openInNewTab(project.repository as string)
-                            }
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                openInNewTab(project.repository as string);
+                            }}
                         >
                             GitHub
                         </a>
