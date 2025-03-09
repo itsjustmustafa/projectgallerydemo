@@ -9,9 +9,7 @@ function App() {
     const [siteData, setSiteData] = useState<ProjectMetadata[]>([]);
 
     useEffect(() => {
-        fetch(
-            "https://raw.githubusercontent.com/itsjustmustafa/projectgallerydemo/refs/heads/main/site_manifest.json"
-        )
+        fetch("/site_manifest.json")
             .then((response) => response.json())
             .then((data: ProjectMetadata[]) => setSiteData(data));
     }, []);
