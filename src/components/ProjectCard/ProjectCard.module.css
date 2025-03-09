@@ -1,0 +1,69 @@
+.card {
+    background: #fff;
+    /* border-radius: 12px; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: border 0.3s ease-in-out;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.card:hover {
+    border: 2px solid #0033DD;
+}
+
+.image {
+    height: 100%;
+    width: 250px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 16px;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.button {
+    background: #0070f3;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    /* border-radius: 6px; */
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #005bb5;
+}
+
+.repoLink {
+    font-size: 0.9rem;
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.repoLink:hover {
+    text-decoration: underline;
+}
