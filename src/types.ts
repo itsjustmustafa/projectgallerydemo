@@ -2,6 +2,7 @@ type ProjectMetadata = {
     id: string;
     title: string;
     description: string;
+    publisher: string;
     imageUrl: string;
     tags: string[];
     dateCreated: string; // ISO 8601 format (e.g., "2024-09-13")

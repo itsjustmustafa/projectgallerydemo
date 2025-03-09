@@ -33,6 +33,9 @@ function ViewPage({ projects }: Props) {
                 <button className={styles.linkButton} onClick={goToLink}>
                     🔗 Go To Page
                 </button>
+                <h3>
+                    {viewedProject.title} - <i>{viewedProject.publisher}</i>
+                </h3>
             </div>
             <iframe
                 src={viewedProject.liveDemoUrl}
