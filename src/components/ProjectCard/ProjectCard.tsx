@@ -1,7 +1,6 @@
 import styles from "./ProjectCard.module.css";
 import { ProjectMetadata } from "../../types";
 import { useNavigate } from "react-router-dom";
-import Tag from "../Tag/Tag";
 import TagList from "../TagList/TagList";
 
 type Props = {

@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import type { ProjectMetadata } from "./types";
-import Gallery from "./components/Gallery/Gallery";
-import SearchBar from "./components/SearchBar/SearchBar";
 import { Route, Routes } from "react-router-dom";
 import ViewPage from "./components/ViewPage/ViewPage";
 import Browser from "./components/Browser/Browser";

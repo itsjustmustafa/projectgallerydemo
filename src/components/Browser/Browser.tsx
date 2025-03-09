@@ -20,7 +20,7 @@ function Browser({ siteData }: Props) {
 
     const [query, setQuery] = useState<string>("");
 
-    function removeQueryTag(tag: string) {
+    function removeQueryTag(_: string) {
         navigate("/");
     }
     return (
