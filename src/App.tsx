@@ -4,6 +4,7 @@ import type { ProjectMetadata } from "./types";
 import { Route, Routes } from "react-router-dom";
 import ViewPage from "./components/ViewPage/ViewPage";
 import Browser from "./components/Browser/Browser";
+import Header from "./components/Header/Header";
 
 function App() {
     const [siteData, setSiteData] = useState<ProjectMetadata[]>([]);
@@ -16,17 +17,20 @@ function App() {
 
     return (
         <>
-            <Routes>
-                <Route
-                    path="/view/:page_id"
-                    element={<ViewPage projects={siteData} />}
-                />
-                <Route path="/" element={<Browser siteData={siteData} />} />
-                <Route
-                    path="/tagged/:queryTag"
-                    element={<Browser siteData={siteData} />}
-                />
-            </Routes>
+            <Header />
+            <div>
+                <Routes>
+                    <Route
+                        path="/view/:page_id"
+                        element={<ViewPage projects={siteData} />}
+                    />
+                    <Route path="/" element={<Browser siteData={siteData} />} />
+                    <Route
+                        path="/tagged/:queryTag"
+                        element={<Browser siteData={siteData} />}
+                    />
+                </Routes>
+            </div>
         </>
     );
 }

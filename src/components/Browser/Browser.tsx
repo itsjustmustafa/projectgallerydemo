@@ -4,6 +4,7 @@ import SearchBar from "../SearchBar/SearchBar";
 import { ProjectMetadata } from "../../types";
 import TagList from "../TagList/TagList";
 import { useNavigate, useParams } from "react-router-dom";
+import styles from "./Browser.module.css";
 
 type Props = {
     siteData: ProjectMetadata[];
@@ -24,7 +25,7 @@ function Browser({ siteData }: Props) {
         navigate("/");
     }
     return (
-        <>
+        <div className={styles.gallery}>
             <SearchBar query={query} onQueryChange={handleSearch} />
             <TagList tags={queryTags} suffix={" ×"} onClick={removeQueryTag} />
             <Gallery
@@ -32,7 +33,7 @@ function Browser({ siteData }: Props) {
                 searchText={query}
                 searchTags={queryTags}
             />
-        </>
+        </div>
     );
 }
 

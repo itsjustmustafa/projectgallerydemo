@@ -9,12 +9,12 @@
 /* Then style the iframe to fit in the container div with full height and width */
 .responsive_iframe {
     position: fixed;
-    top: 10%;
+    top: 170px;
     left: 5%;
     /* bottom: 0; */
     /* right: 0; */
     width: 90%;
-    height: 80%;
+    height: calc(95% - 150px);
 }
 
 .buttonContainer {
