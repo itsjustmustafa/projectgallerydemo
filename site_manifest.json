@@ -1,0 +1,41 @@
+[
+  {
+    "id": "covid-simulator-2020",
+    "title": "Why outbreaks like coronavirus spread exponentially, and how to “flatten the curve”",
+    "description": "An interactive simulation showing how different levels of social distancing affect the spread of infectious diseases.",
+    "publisher": "The Washington Post",
+    "imageUrl": "https://www.washingtonpost.com/graphics/2020/world/corona-simulator/img/sig-gif.gif",
+    "tags": [
+      "COVID-19",
+      "epidemics",
+      "simulation",
+      "social distancing"
+    ],
+    "dateCreated": "2020-03-14",
+    "dateUpdated": "2020-03-14",
+    "sourceUrl": "https://www.washingtonpost.com/graphics/2020/world/corona-simulator/",
+    "repository": null,
+    "liveDemoUrl": "https://www.washingtonpost.com/graphics/2020/world/corona-simulator/",
+    "isInteractive": true
+  },
+  {
+    "id": "ai-fake-image-detector-2024",
+    "title": "How to Spot a Fake Image: AI Manipulation Detection",
+    "description": "An interactive guide to identifying AI-generated and manipulated images.",
+    "publisher": "ABC",
+    "imageUrl": "https://live-production.wcms.abc-cdn.net.au/9a7dbe3fd819d591518ed15b4c283e19",
+    "tags": [
+      "AI",
+      "deepfakes",
+      "image analysis",
+      "fact-checking"
+    ],
+    "dateCreated": "2024-09-13",
+    "dateUpdated": "2024-09-13",
+    "sourceUrl": "https://www.abc.net.au/news/2024-09-13/how-to-spot-a-fake-image-ai-manipulation/103646188",
+    "repository": null,
+    "liveDemoUrl": "https://www.abc.net.au/news/2024-09-13/how-to-spot-a-fake-image-ai-manipulation/103646188",
+    "isInteractive": true,
+    "estimatedCompletionTime": "10 minutes"
+  }
+]
