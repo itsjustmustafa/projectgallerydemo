@@ -23,7 +23,11 @@ function ProjectCard({ project }: Props) {
         <div
             className={styles.card}
             onClick={() => {
-                openInView(project.id as string);
+                if (project.isEmbeddable) {
+                    openInView(project.id as string);
+                } else {
+                    openInNewTab(project.liveDemoUrl);
+                }
             }}
         >
             <img

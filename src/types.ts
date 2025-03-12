@@ -11,6 +11,7 @@ type ProjectMetadata = {
     repository: string | null; // Nullable if no repo exists
     liveDemoUrl: string;
     isInteractive: boolean;
+    isEmbeddable: boolean;
     estimatedCompletionTime: string; // e.g., "10 minutes"
 };
 
